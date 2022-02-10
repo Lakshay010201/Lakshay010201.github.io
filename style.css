@@ -53,10 +53,13 @@
     border-radius: 50px;
     text-decoration: none;
     color: white;
+    transition: all 0.5sec ease-in-out;
 }
 #navbar ul li a:hover{
     color: black;
     background-color: white;
+    text-decoration: underline;
+    box-shadow: 2px 2px black;
 }
 /* home section */
 #home{
