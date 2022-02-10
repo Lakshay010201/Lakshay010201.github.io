@@ -171,6 +171,7 @@
 /* contact section */
 #contact{
     position: relative;
+    font-family: 'Share Tech Mono', monospace;
 }
 #contact::before{
     content: "";
@@ -181,6 +182,30 @@
     opacity: 0.7;
     background: url('contact.jpg') no-repeat center center/cover;
 }
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 34px;
+}
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+#contact-box form{
+    width: 35%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+}
+/* footer section */
+footer{
+    background-color: black;
+    color: white;
+    padding: 9px 20px;
+}
 
 /* utility classes */
 a{
@@ -189,7 +214,7 @@ a{
 }
 .h-primary{
     font-size: 3.8rem;
-    padding: 28px;
+    padding: 20px;
     font-family: 'Share Tech Mono', monospace;
 }
 .h-secondary{
