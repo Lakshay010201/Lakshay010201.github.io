@@ -218,6 +218,7 @@ a{
     padding: 20px;
     font-family: 'Share Tech Mono', monospace;
 }
+
 .h-secondary{
     font-size: 2.8rem;
     padding: 12px;
@@ -226,7 +227,7 @@ a{
 .btn{
     padding: 5px 15px;
     border: solid 3px brown;
-    background-color: rgb(173, 167, 167);
+    background-color: transparent;
     margin: 10px;
     /* font-size: 1.2rem; */
     border-radius: 10px;
@@ -240,4 +241,23 @@ a{
 } */
 .center{
     text-align: center;
+}
+.typed-out{
+    overflow: hidden;
+    border-right: solid rgb(0, 0, 0);
+    white-space: nowrap;
+    /* font-size: 1.6rem; */
+    width: 0;
+    animation: typing 2s steps(20, end) forwards;
+
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 70% }
+  }
+.text {
+ background: linear-gradient(to right, rgb(0, 0, 0) 0%, red 100%);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ 
 }
